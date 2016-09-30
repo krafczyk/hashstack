@@ -6,7 +6,7 @@
 # the most *specific* file that matches your environment.
 
 extends:
-- file: debian.yaml
+- file: ../debian.yaml
 
 # The packages list specifies all the packages that you
 # require installed.  <#> will ensure that all packages
@@ -62,6 +62,7 @@ packages:
   netcdf4f:
   netcdf4cpp:
   jasper:
+  openjpeg:
   grib_api:
   pyproj:
   pygrib:
